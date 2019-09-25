@@ -30,7 +30,7 @@ import (
 )
 
 // DefaultWalkTimeout is the default walk timeout.
-const DefaultWalkTimeout time.Duration = 3 * time.Second
+const DefaultWalkTimeout time.Duration = 60 * time.Second
 
 var rootDirPath = filepath.Dir(string(filepath.Separator))
 
